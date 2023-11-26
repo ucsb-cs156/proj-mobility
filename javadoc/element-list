@@ -1,0 +1,10 @@
+edu.ucsb.cs156.mobility
+edu.ucsb.cs156.mobility.aop
+edu.ucsb.cs156.mobility.config
+edu.ucsb.cs156.mobility.controllers
+edu.ucsb.cs156.mobility.entities
+edu.ucsb.cs156.mobility.errors
+edu.ucsb.cs156.mobility.interceptors
+edu.ucsb.cs156.mobility.models
+edu.ucsb.cs156.mobility.repositories
+edu.ucsb.cs156.mobility.services
