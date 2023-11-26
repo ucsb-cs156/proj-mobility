@@ -26,7 +26,7 @@ export default function Footer() {
           {space}
           <a
             data-testid="footer-source-code-link"
-            href={"https://github.com/ucsb-cs156-s23/proj-gauchoride-s23-5pm-2"}
+            href={"https://github.com/ucsb-cs156-s23/proj-mobility-s23-5pm-2"}
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -223,7 +223,7 @@ describe("AppNavbar tests", () => {
             </QueryClientProvider>
         );
 
-        expect(await screen.findByTestId("gauchoride-nav-logo")).toHaveAttribute('style', 'width: 80px; height: 80px; margin-right: 15px;');     
+        expect(await screen.findByTestId("mobility-nav-logo")).toHaveAttribute('style', 'width: 80px; height: 80px; margin-right: 15px;');     
     });
 
 
@@ -323,7 +323,7 @@ describe("AppNavbar tests", () => {
                     </MemoryRouter>
             </QueryClientProvider>
         );
-        expect(await screen.findByTestId("gauchoride-nav-logo")).toHaveAttribute('style', 'width: 80px; height: 80px; margin-right: 15px;');
+        expect(await screen.findByTestId("mobility-nav-logo")).toHaveAttribute('style', 'width: 80px; height: 80px; margin-right: 15px;');
     });
                     
     test("background of AppNavbar is UCSB's navy color", async () => {

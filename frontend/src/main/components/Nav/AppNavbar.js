@@ -44,10 +44,10 @@ export default function AppNavbar({ currentUser, systemInfo, doLogout, currentUr
 
       <Navbar expand="xl" variant="dark" sticky="top" data-testid="AppNavbar" style={styles.navbar}>
         <Container>
-          <img data-testid="gauchoride-nav-logo" src={headerImg} alt="" style={{ width: 80, height: 80, marginRight: 15 }} />
+          <img data-testid="mobility-nav-logo" src={headerImg} alt="" style={{ width: 80, height: 80, marginRight: 15 }} />
 
           <Navbar.Brand as={Link} to="/">
-            GauchoRide
+            mobility
           </Navbar.Brand>
 
           <Navbar.Toggle />

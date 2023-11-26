@@ -59,7 +59,7 @@ describe("HomePage tests", () => {
 
     });
 
-    test("the 'GauchoRide!' text has the correct CSS", async () => {
+    test("the 'mobility!' text has the correct CSS", async () => {
         render(
             <QueryClientProvider client={queryClient}>
                 <MemoryRouter>

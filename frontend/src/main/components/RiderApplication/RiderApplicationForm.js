@@ -159,7 +159,7 @@ function RiderApplicationForm({ initialContents, submitAction, buttonLabel = "Ap
 
             <Form.Group className="mb-3" >
                 <Form.Label htmlFor="description">Description</Form.Label>
-                <Form.Label style={{ display: 'block', fontSize: '80%', fontStyle: 'italic', color: '#888' }}>Please describe the mobility limitations that cause you to need to use the Gauchoride service.</Form.Label>                        
+                <Form.Label style={{ display: 'block', fontSize: '80%', fontStyle: 'italic', color: '#888' }}>Please describe the mobility limitations that cause you to need to use the mobility service.</Form.Label>                        
                 <Form.Control
                     data-testid={testIdPrefix + "-description"}
                     id="description"

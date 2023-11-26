@@ -3,8 +3,8 @@ name: 99 - Copy issues from starter repo
 
 env:
     GH_TOKEN: ${{ github.token }}
-    STARTER: https://github.com/ucsb-cs156/proj-gauchoride
-    STARTER_NAME: ucsb-cs156/proj-gauchoride
+    STARTER: https://github.com/ucsb-cs156/proj-mobility
+    STARTER_NAME: ucsb-cs156/proj-mobility
 on:
   workflow_dispatch:
 
